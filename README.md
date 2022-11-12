@@ -19,7 +19,7 @@ The dataset provide data for 3 faults:
 - Flowcool leak
 
 ### Some data issues
-- Disparate data in the features data ranging from 107 to 10--6
+- Disparate data in the features data.
 - Missing data on the TTF files
 - The time variable has inconsistent gaps mostly like due to the machine being shut down for maintenance. Therefore, the time variable cannot be used as a index.
 - Sensor data has no distinct pattern or seasonality.
@@ -33,4 +33,4 @@ The dataset provide data for 3 faults:
 - New classification features are created using cutoffs for failure.
 
 # Tools used
-- Numpy, Pandas, Sklearn - Random Forest Regressor, Random Forest Classifier, Train-Test Split, TimeSeriesSplit.
+- Numpy, Pandas, Matplotlib, Seaborn, Sklearn - Random Forest Regressor, Random Forest Classifier, Train-Test Split, TimeSeriesSplit.
